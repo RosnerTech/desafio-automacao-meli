@@ -67,3 +67,31 @@ As imagens abaixo demonstram a execução da aplicação, com o funcionamento da
   <br>
   <em>Conexão com Switch.</em>
 </p>
+
+<p align="center">
+ <img src="img/hostname_sw.png"> 
+  <br>
+  <em>Hostname inicial do Switch antes da execução do script.</em>
+</p>
+
+<p align="center">
+ <img src="img/vlan_01_sw.png"> 
+  <br>
+  <em>Vlan default do Switch antes da execução do script.</em>
+</p>
+
+<p align="center">
+ <img src="img/backup_sw.png"> 
+  <br>
+  <em>Sucesso execução do Backup.</em>
+</p>
+
+<p align="center">
+  <em>Arquivo na raiz do repositório SWITCH_AUTOMATIZADO_2025-07-13_18-15.txt</em>
+</p>
+
+<p align="center">
+ <img src="img/log_01.png"> 
+  <br>
+  <em>Log que aplicação exibe para o usuário.</em>
+</p>

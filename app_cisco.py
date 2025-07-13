@@ -10,7 +10,7 @@ conexao = None
 # Substitua pelas configurações do seu switch
 SWITCH_CONFIG = {
     'device_type': 'cisco_ios',
-    'host': '172.16.16.243',      
+    'host': '172.16.16.244',      
     'username': 'admin',        
     'password': 'admin'     
 }
@@ -31,6 +31,24 @@ def conectar_cisco():
 def log(msg):
     saida.insert(tk.END, msg + '\n')
     saida.see(tk.END)
+
+#Função que efetua o backup
+def backup_config():
+    try:
+        hostname_output = conexao.send_command("show running-config | include hostname")
+        hostname = hostname_output.split()[1] if "hostname" in hostname_output else "SWITCH"
+        running_config = conexao.send_command("show running-config")
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
+        filename = f"{hostname}_{timestamp}.txt"
+
+        with open(filename, "w") as file:
+            file.write(running_config)
+
+        messagebox.showinfo("Sucesso", f"Backup efetuado com sucesso!\n{filename}")
+        log(f"💾 Backup salvo como {filename}")
+    except Exception as erro:
+        messagebox.showerror("Erro", f"Erro ao fazer backup:\n{erro}")
+
 
 #Criacao da interface grafica 
 
@@ -58,7 +76,7 @@ for i in range(3):
 botao_aplicar = tk.Button(janela, text="Aplicar Configuração", command="", state=tk.DISABLED)
 botao_aplicar.pack(pady=10)
 
-botao_backup = tk.Button(janela, text="Efetuar Backup", command="", state=tk.DISABLED)
+botao_backup = tk.Button(janela, text="Efetuar Backup", command=backup_config, state=tk.DISABLED)
 botao_backup.pack(pady=5)
 
 #Onde irei exibir os log
