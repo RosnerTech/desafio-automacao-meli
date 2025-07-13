@@ -41,7 +41,8 @@ O desafio técnico foi dividido em etapas com os seguintes requisitos:
 
 ## 🐍 Instalação das Dependências Python e Ambiente Virtual
 
-Antes de executar o projeto, instale as bibliotecas necessárias com o comando abaixo:
+Antes de executar o projeto, configure um ambiente virtual e instale as bibliotecas necessárias utilizando o comando abaixo:
+
 ```
 python3 -m venv venv
 .\venv\Scripts\activate
@@ -60,7 +61,9 @@ python app_cisco.py
 ## 🧪 Testes e Evidências
 
 As imagens abaixo demonstram a execução da aplicação, com o funcionamento da interface gráfica e os testes feitos com o switch emulado.
-<figure>
-  <img src="img/conexao_sw.png" alt="Texto alternativo">
-  <figcaption>Conexão com Switch</figcaption>
-</figure>
+
+<p align="center">
+ <img src="img/conexao_sw.png"> 
+  <br>
+  <em>Conexão com Switch.</em>
+</p>
