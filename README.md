@@ -69,6 +69,12 @@ As imagens abaixo demonstram a execução da aplicação, com o funcionamento da
 </p>
 
 <p align="center">
+ <img src="img/err_conecta_sw.png"> 
+  <br>
+  <em>Em caso de erro apresenta mensagem.</em>
+</p>
+
+<p align="center">
  <img src="img/hostname_sw.png"> 
   <br>
   <em>Hostname inicial do Switch antes da execução do script.</em>
@@ -95,3 +101,47 @@ As imagens abaixo demonstram a execução da aplicação, com o funcionamento da
   <br>
   <em>Log que aplicação exibe para o usuário.</em>
 </p>
+
+<p align="center">
+ <img src="img/criando_vlan_01.png"> 
+  <br>
+  <em>Preenchendo informações das VLANs.</em>
+</p>
+
+<p align="center">
+ <img src="img/criando_vlan_02.png"> 
+  <br>
+  <em>Criando as VLANs.</em>
+</p>
+
+<p align="center">
+ <img src="img/criando_vlan_03.png"> 
+  <br>
+  <em>Validando VLANs no Switch.</em>
+</p>
+
+<p align="center">
+ <img src="img/validacao_vlan.png"> 
+  <br>
+  <em>Log de validadação das VLANs.</em>
+</p>
+
+<p align="center">
+ <img src="img/erro_valida_vlan.png"> 
+  <br>
+  <em>Log de erro na validação das VLANs.</em>
+  <br>
+  <em>Aqui simulei um erro para demonstrar a mensagem de erro.</em>
+</p>
+
+
+<p align="center">
+ <img src="imG/validacao_hostname.png"> 
+  <br>
+  <em>Valida o Hostname e altera em caso incorreto.</em>
+  <br>
+  <em>Alterei o hostname no Switch e executei o script, para demonstrar a verificação e alteração do hostname.</em>
+</p>
+
+[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=NoaW00q5pgU)
+
