@@ -136,7 +136,7 @@ As imagens abaixo demonstram a execução da aplicação, com o funcionamento da
 
 
 <p align="center">
- <img src="imG/validacao_hostname.png"> 
+ <img src="img/validacao_hostname.png"> 
   <br>
   <em>Valida o Hostname e altera em caso incorreto.</em>
   <br>
