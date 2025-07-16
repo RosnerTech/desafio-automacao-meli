@@ -34,7 +34,7 @@ O desafio técnico foi dividido em etapas com os seguintes requisitos:
 | GNS3           | Simulação da topologia com dispositivos Cisco       |
 | VMWare         | Virtualização do ambiente de testes                 |
 | Visual Studio Code | Desenvolvimento do código Python                  |
-| Cisco 2691 (emulado) | Equipamento simulado para testes de automação    |
+| Cisco (emulado) | Equipamento simulado para testes de automação    |
 | Python 3.13.5  | Linguagem utilizada no desenvolvimento dos scripts  |
 
 ---
@@ -143,5 +143,13 @@ As imagens abaixo demonstram a execução da aplicação, com o funcionamento da
   <em>Alterei o hostname no Switch e executei o script, para demonstrar a verificação e alteração do hostname.</em>
 </p>
 
-[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=NoaW00q5pgU)
+## 🔍 Demonstração em vídeo do resultado final da funcionalidade desenvolvida.
+
+<div align="center">
+  <h2>
+    <a href="https://www.youtube.com/watch?v=NoaW00q5pgU" target="_blank">
+      ▶️ Assista agora no YouTube
+    </a>
+  </h2>
+</div>
 
