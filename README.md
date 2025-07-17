@@ -163,7 +163,7 @@ As imagens abaixo demonstram a execução da aplicação, com o funcionamento da
 Automatizar a configuração de uma VPN IPSec entre um firewall **FortiGate** (7.0.4, GNS3) e um firewall **Palo Alto** (não emulado), utilizando:
 
 - API REST do FortiGate (com token de acesso)
-- Conexão SSH (prevista para o Palo Alto)
+- Conexão API (prevista para o Palo Alto)
 
 Este documento descreve:
 
@@ -219,7 +219,7 @@ Este documento descreve:
 </div>
 
 - **API REST (XML/JSON)**
-- Endpoint: http://172.16.16.247/api/?type=config&action=set
+- Endpoint: http://ip_firewall/api/?type=config&action=set (Exemplo)
 - Comandos CLI para criação de túnel e IKE/IPSec
 
 ---
